@@ -4,9 +4,9 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 In the project directory, you can run:
 
-Author: Sriranjini Rajesh
-Date: 7 March 2019
-Feel free to touch base with me for any doubts: sriranjini.rajesh@gmail.com
+Author: Sriranjini Rajesh <br>
+Date: 7 March 2019 <br>
+Feel free to touch base with me for any doubts: sriranjini.rajesh@gmail.com<br>
 
 ### `npm start`
 
