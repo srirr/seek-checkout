@@ -27,7 +27,7 @@ Your app is ready to be deployed!
 
 ### To be clean up /Done:
 
-1. Not responsive, easy to fix, but haven’t done yet. Will bring in for Pairing.
+1. UI is Not responsive yet, easy to fix, but haven’t done yet. Will bring in for Pairing.
 2. CSS style sheets. I was planning to use styled components and If any inline styles in the App.tsx file should go inside the App.css or as a styles component in App.tsx
 
 ### Assumptions:
