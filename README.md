@@ -4,6 +4,10 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 In the project directory, you can run:
 
+Author: Sriranjini Rajesh
+Date: 7 March 2019
+Feel free to touch base with me for any doubts: sriranjini.rajesh@gmail.com
+
 ### `npm start`
 
 Runs the app in the development mode.<br>
@@ -36,4 +40,6 @@ Your app is ready to be deployed!
 2. Pricing rule for various companies are returned from Pricing rules endpoint. Currently stubbed out as the <company-name>.json
 3. Did not spent time on making the UI look perfect. Followed a simple UI.
 4. Currently showing just the total in the UI, there is capability to show gross total and discount.
+  
+ 
 
