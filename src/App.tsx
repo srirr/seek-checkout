@@ -74,7 +74,7 @@ class App extends Component<{}, {}> {
                       <tr>
                         <td>{product.name}</td>
                         <td>{product.description}</td>
-                        <td>{product.price}</td>
+                        <td>${product.price}</td>
                         <td>{that.countProduct(product.id)}</td>
                         <td>
                           <Button variant="outline-primary" type="button" onClick={() => that.addProduct(product)}>
@@ -89,7 +89,7 @@ class App extends Component<{}, {}> {
               <div className="total">
                 <label className="totalLabel">Total: </label>
                 <label>
-                  <b>{this.state.total}</b>
+                  <b>${this.state.total}</b>
                 </label>
               </div>
 
