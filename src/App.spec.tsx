@@ -49,14 +49,6 @@ describe('<App />', () => {
     expect(component.checkout.items[0]).toEqual(getProduct('classic'));
   });
 
-  // it('total, should call checkout total', () => {
-  //   const component: any = ReactDOM.render(<App />, container);
-  //   const company = 'secondBite';
-  //   const totalSpy = jest.spyOn(checkout);
-  //   component.total();
-  //   expect();
-  // });
-
   it('countProduct, should return number of products of a given ProductId added', () => {
     const component: any = ReactDOM.render(<App />, container);
 

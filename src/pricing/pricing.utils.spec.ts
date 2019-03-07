@@ -4,7 +4,6 @@ import myer from '../pricing/pricing-rules/myer.json';
 import secondBite from '../pricing/pricing-rules/second-bite.json';
 import { IPricingRule, IProduct } from '../app.types';
 import { getProduct } from '../checkout/checkout.utils';
-import products from '../products.json';
 
 describe('Pricing utils', () => {
   const classicProduct = getProduct('classic')!;

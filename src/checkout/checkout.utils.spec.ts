@@ -1,5 +1,4 @@
 import { calculateGrossTotal, getProduct, calculateTotal } from './checkout.utils';
-import myer from '../pricing/pricing-rules/myer.json';
 import { getPricingRules } from '../pricing/pricing.utils';
 
 describe('Checkout utils', () => {

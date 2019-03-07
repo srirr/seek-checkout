@@ -1,7 +1,7 @@
 [
   {
+    "productId": "classic",
     "qtyRequired": 3,
-    "qtyPaid": 2,
-    "productId": "classic"
+    "qtyPaid": 2
   }
 ]

@@ -27,9 +27,7 @@ ShallowWrapper {
         <body
           className="App-body"
         >
-          <form
-            onSubmit={[Function]}
-          >
+          <form>
             <label>
               Company: 
             </label>
@@ -198,9 +196,7 @@ ShallowWrapper {
           <body
             className="App-body"
           >
-            <form
-              onSubmit={[Function]}
-            >
+            <form>
               <label>
                 Company: 
               </label>
@@ -374,9 +370,7 @@ ShallowWrapper {
           "key": undefined,
           "nodeType": "host",
           "props": Object {
-            "children": <form
-              onSubmit={[Function]}
-            >
+            "children": <form>
               <label>
                 Company: 
               </label>
@@ -688,7 +682,6 @@ ShallowWrapper {
                   Calculate total
                 </ForwardRef(Bootstrap(Button))>,
               ],
-              "onSubmit": [Function],
             },
             "ref": null,
             "rendered": Array [
@@ -1536,9 +1529,7 @@ ShallowWrapper {
           <body
             className="App-body"
           >
-            <form
-              onSubmit={[Function]}
-            >
+            <form>
               <label>
                 Company: 
               </label>
@@ -1707,9 +1698,7 @@ ShallowWrapper {
             <body
               className="App-body"
             >
-              <form
-                onSubmit={[Function]}
-              >
+              <form>
                 <label>
                   Company: 
                 </label>
@@ -1883,9 +1872,7 @@ ShallowWrapper {
             "key": undefined,
             "nodeType": "host",
             "props": Object {
-              "children": <form
-                onSubmit={[Function]}
-              >
+              "children": <form>
                 <label>
                   Company: 
                 </label>
@@ -2197,7 +2184,6 @@ ShallowWrapper {
                     Calculate total
                   </ForwardRef(Bootstrap(Button))>,
                 ],
-                "onSubmit": [Function],
               },
               "ref": null,
               "rendered": Array [
