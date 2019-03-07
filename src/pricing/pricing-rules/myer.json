@@ -1,0 +1,11 @@
+[
+  {
+    "qtyRequired": 5,
+    "qtyPaid": 4,
+    "productId": "standout"
+  },
+  {
+    "price": 389.99,
+    "productId": "premium"
+  }
+]
