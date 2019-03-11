@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import Button from 'react-bootstrap/Button';
+import Container from 'react-bootstrap/Container';
 import Table from 'react-bootstrap/Table';
 import './App.css';
 import products from './products.json';
@@ -26,7 +27,6 @@ class App extends Component<{}, {}> {
 
   addProduct = (product: IProduct): void => {
     this.checkout.add(product);
-    this.setState({ ...this.state, [`${product.id}Qty`]: this.countProduct(product.id) });
   };
 
   total = (): void => {
@@ -41,7 +41,7 @@ class App extends Component<{}, {}> {
   render() {
     const that = this;
     return (
-      <div className="App">
+      <Container className="App">
         <header className="App-header">
           <h1>Seek Checkout</h1>
           <body className="App-body">
@@ -99,7 +99,7 @@ class App extends Component<{}, {}> {
             </form>
           </body>
         </header>
-      </div>
+      </Container>
     );
   }
 }
