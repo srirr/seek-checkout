@@ -18,13 +18,13 @@ ShallowWrapper {
     "key": undefined,
     "nodeType": "function",
     "props": Object {
-      "children": <header
-        className="App-header"
-      >
-        <h1>
-          Seek Checkout
-        </h1>
-        <body
+      "children": Array [
+        <div>
+          <h1>
+            Seek Checkout
+          </h1>
+        </div>,
+        <div
           className="App-body"
         >
           <form>
@@ -66,6 +66,7 @@ ShallowWrapper {
             <ForwardRef(Bootstrap(Table))
               bordered={true}
               hover={true}
+              responsive={true}
               striped={true}
             >
               <thead>
@@ -183,21 +184,1246 @@ ShallowWrapper {
               Calculate total
             </ForwardRef(Bootstrap(Button))>
           </form>
-        </body>
-      </header>,
+        </div>,
+      ],
       "className": "App",
     },
     "ref": null,
-    "rendered": Object {
-      "instance": null,
-      "key": undefined,
-      "nodeType": "host",
-      "props": Object {
-        "children": Array [
-          <h1>
+    "rendered": Array [
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": <h1>
             Seek Checkout
           </h1>,
-          <body
+        },
+        "ref": null,
+        "rendered": Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": "Seek Checkout",
+          },
+          "ref": null,
+          "rendered": "Seek Checkout",
+          "type": "h1",
+        },
+        "type": "div",
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": <form>
+            <label>
+              Company: 
+            </label>
+            <select
+              className="select-list"
+              data-id="company"
+              onChange={[Function]}
+              value="myer"
+            >
+              <option
+                value="myer"
+              >
+                Myer
+              </option>
+              <option
+                value="secondBite"
+              >
+                Second Bite
+              </option>
+              <option
+                value="axilCoffeeRoasters"
+              >
+                Axil Coffee Roasters
+              </option>
+              <option
+                value="target"
+              >
+                Target
+              </option>
+            </select>
+            <span
+              className="sub-text"
+            >
+              (This is just to replicate the logged in company and to apply the pricing rules)
+            </span>
+            <ForwardRef(Bootstrap(Table))
+              bordered={true}
+              hover={true}
+              responsive={true}
+              striped={true}
+            >
+              <thead>
+                <tr>
+                  <th>
+                    Name 
+                  </th>
+                  <th>
+                    Description
+                  </th>
+                  <th>
+                    Price
+                  </th>
+                  <th>
+                    Quantity
+                  </th>
+                  <th />
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>
+                    Classic Ad
+                  </td>
+                  <td>
+                    Offers the most basic level of advertisement
+                  </td>
+                  <td>
+                    $
+                    269.99
+                  </td>
+                  <td>
+                    0
+                  </td>
+                  <td>
+                    <ForwardRef(Bootstrap(Button))
+                      onClick={[Function]}
+                      type="button"
+                      variant="outline-primary"
+                    >
+                      Add
+                    </ForwardRef(Bootstrap(Button))>
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    Stand out Ad
+                  </td>
+                  <td>
+                    Allows advertisers to use a company logo and use a longer presentation text
+                  </td>
+                  <td>
+                    $
+                    322.99
+                  </td>
+                  <td>
+                    0
+                  </td>
+                  <td>
+                    <ForwardRef(Bootstrap(Button))
+                      onClick={[Function]}
+                      type="button"
+                      variant="outline-primary"
+                    >
+                      Add
+                    </ForwardRef(Bootstrap(Button))>
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    Premium Ad
+                  </td>
+                  <td>
+                    Same benefits as Standout Ad, but also puts the advertisement at the top of the results, allowing higher visibility
+                  </td>
+                  <td>
+                    $
+                    394.99
+                  </td>
+                  <td>
+                    0
+                  </td>
+                  <td>
+                    <ForwardRef(Bootstrap(Button))
+                      onClick={[Function]}
+                      type="button"
+                      variant="outline-primary"
+                    >
+                      Add
+                    </ForwardRef(Bootstrap(Button))>
+                  </td>
+                </tr>
+              </tbody>
+            </ForwardRef(Bootstrap(Table))>
+            <div
+              className="total"
+            >
+              <label
+                className="totalLabel"
+              >
+                Total: 
+              </label>
+              <label>
+                <b>
+                  $
+                  0.00
+                </b>
+              </label>
+            </div>
+            <ForwardRef(Bootstrap(Button))
+              onClick={[Function]}
+              type="button"
+              value="Calculate total"
+            >
+              Calculate total
+            </ForwardRef(Bootstrap(Button))>
+          </form>,
+          "className": "App-body",
+        },
+        "ref": null,
+        "rendered": Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              <label>
+                Company: 
+              </label>,
+              <select
+                className="select-list"
+                data-id="company"
+                onChange={[Function]}
+                value="myer"
+              >
+                <option
+                  value="myer"
+                >
+                  Myer
+                </option>
+                <option
+                  value="secondBite"
+                >
+                  Second Bite
+                </option>
+                <option
+                  value="axilCoffeeRoasters"
+                >
+                  Axil Coffee Roasters
+                </option>
+                <option
+                  value="target"
+                >
+                  Target
+                </option>
+              </select>,
+              <span
+                className="sub-text"
+              >
+                (This is just to replicate the logged in company and to apply the pricing rules)
+              </span>,
+              <ForwardRef(Bootstrap(Table))
+                bordered={true}
+                hover={true}
+                responsive={true}
+                striped={true}
+              >
+                <thead>
+                  <tr>
+                    <th>
+                      Name 
+                    </th>
+                    <th>
+                      Description
+                    </th>
+                    <th>
+                      Price
+                    </th>
+                    <th>
+                      Quantity
+                    </th>
+                    <th />
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td>
+                      Classic Ad
+                    </td>
+                    <td>
+                      Offers the most basic level of advertisement
+                    </td>
+                    <td>
+                      $
+                      269.99
+                    </td>
+                    <td>
+                      0
+                    </td>
+                    <td>
+                      <ForwardRef(Bootstrap(Button))
+                        onClick={[Function]}
+                        type="button"
+                        variant="outline-primary"
+                      >
+                        Add
+                      </ForwardRef(Bootstrap(Button))>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>
+                      Stand out Ad
+                    </td>
+                    <td>
+                      Allows advertisers to use a company logo and use a longer presentation text
+                    </td>
+                    <td>
+                      $
+                      322.99
+                    </td>
+                    <td>
+                      0
+                    </td>
+                    <td>
+                      <ForwardRef(Bootstrap(Button))
+                        onClick={[Function]}
+                        type="button"
+                        variant="outline-primary"
+                      >
+                        Add
+                      </ForwardRef(Bootstrap(Button))>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>
+                      Premium Ad
+                    </td>
+                    <td>
+                      Same benefits as Standout Ad, but also puts the advertisement at the top of the results, allowing higher visibility
+                    </td>
+                    <td>
+                      $
+                      394.99
+                    </td>
+                    <td>
+                      0
+                    </td>
+                    <td>
+                      <ForwardRef(Bootstrap(Button))
+                        onClick={[Function]}
+                        type="button"
+                        variant="outline-primary"
+                      >
+                        Add
+                      </ForwardRef(Bootstrap(Button))>
+                    </td>
+                  </tr>
+                </tbody>
+              </ForwardRef(Bootstrap(Table))>,
+              <div
+                className="total"
+              >
+                <label
+                  className="totalLabel"
+                >
+                  Total: 
+                </label>
+                <label>
+                  <b>
+                    $
+                    0.00
+                  </b>
+                </label>
+              </div>,
+              <ForwardRef(Bootstrap(Button))
+                onClick={[Function]}
+                type="button"
+                value="Calculate total"
+              >
+                Calculate total
+              </ForwardRef(Bootstrap(Button))>,
+            ],
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "Company: ",
+              },
+              "ref": null,
+              "rendered": "Company: ",
+              "type": "label",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": Array [
+                  <option
+                    value="myer"
+                  >
+                    Myer
+                  </option>,
+                  <option
+                    value="secondBite"
+                  >
+                    Second Bite
+                  </option>,
+                  <option
+                    value="axilCoffeeRoasters"
+                  >
+                    Axil Coffee Roasters
+                  </option>,
+                  <option
+                    value="target"
+                  >
+                    Target
+                  </option>,
+                ],
+                "className": "select-list",
+                "data-id": "company",
+                "onChange": [Function],
+                "value": "myer",
+              },
+              "ref": null,
+              "rendered": Array [
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": "Myer",
+                    "value": "myer",
+                  },
+                  "ref": null,
+                  "rendered": "Myer",
+                  "type": "option",
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": "Second Bite",
+                    "value": "secondBite",
+                  },
+                  "ref": null,
+                  "rendered": "Second Bite",
+                  "type": "option",
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": "Axil Coffee Roasters",
+                    "value": "axilCoffeeRoasters",
+                  },
+                  "ref": null,
+                  "rendered": "Axil Coffee Roasters",
+                  "type": "option",
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": "Target",
+                    "value": "target",
+                  },
+                  "ref": null,
+                  "rendered": "Target",
+                  "type": "option",
+                },
+              ],
+              "type": "select",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "(This is just to replicate the logged in company and to apply the pricing rules)",
+                "className": "sub-text",
+              },
+              "ref": null,
+              "rendered": "(This is just to replicate the logged in company and to apply the pricing rules)",
+              "type": "span",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "function",
+              "props": Object {
+                "bordered": true,
+                "children": Array [
+                  <thead>
+                    <tr>
+                      <th>
+                        Name 
+                      </th>
+                      <th>
+                        Description
+                      </th>
+                      <th>
+                        Price
+                      </th>
+                      <th>
+                        Quantity
+                      </th>
+                      <th />
+                    </tr>
+                  </thead>,
+                  <tbody>
+                    <tr>
+                      <td>
+                        Classic Ad
+                      </td>
+                      <td>
+                        Offers the most basic level of advertisement
+                      </td>
+                      <td>
+                        $
+                        269.99
+                      </td>
+                      <td>
+                        0
+                      </td>
+                      <td>
+                        <ForwardRef(Bootstrap(Button))
+                          onClick={[Function]}
+                          type="button"
+                          variant="outline-primary"
+                        >
+                          Add
+                        </ForwardRef(Bootstrap(Button))>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td>
+                        Stand out Ad
+                      </td>
+                      <td>
+                        Allows advertisers to use a company logo and use a longer presentation text
+                      </td>
+                      <td>
+                        $
+                        322.99
+                      </td>
+                      <td>
+                        0
+                      </td>
+                      <td>
+                        <ForwardRef(Bootstrap(Button))
+                          onClick={[Function]}
+                          type="button"
+                          variant="outline-primary"
+                        >
+                          Add
+                        </ForwardRef(Bootstrap(Button))>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td>
+                        Premium Ad
+                      </td>
+                      <td>
+                        Same benefits as Standout Ad, but also puts the advertisement at the top of the results, allowing higher visibility
+                      </td>
+                      <td>
+                        $
+                        394.99
+                      </td>
+                      <td>
+                        0
+                      </td>
+                      <td>
+                        <ForwardRef(Bootstrap(Button))
+                          onClick={[Function]}
+                          type="button"
+                          variant="outline-primary"
+                        >
+                          Add
+                        </ForwardRef(Bootstrap(Button))>
+                      </td>
+                    </tr>
+                  </tbody>,
+                ],
+                "hover": true,
+                "responsive": true,
+                "striped": true,
+              },
+              "ref": null,
+              "rendered": Array [
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": <tr>
+                      <th>
+                        Name 
+                      </th>
+                      <th>
+                        Description
+                      </th>
+                      <th>
+                        Price
+                      </th>
+                      <th>
+                        Quantity
+                      </th>
+                      <th />
+                    </tr>,
+                  },
+                  "ref": null,
+                  "rendered": Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "host",
+                    "props": Object {
+                      "children": Array [
+                        <th>
+                          Name 
+                        </th>,
+                        <th>
+                          Description
+                        </th>,
+                        <th>
+                          Price
+                        </th>,
+                        <th>
+                          Quantity
+                        </th>,
+                        <th />,
+                      ],
+                    },
+                    "ref": null,
+                    "rendered": Array [
+                      Object {
+                        "instance": null,
+                        "key": undefined,
+                        "nodeType": "host",
+                        "props": Object {
+                          "children": "Name ",
+                        },
+                        "ref": null,
+                        "rendered": "Name ",
+                        "type": "th",
+                      },
+                      Object {
+                        "instance": null,
+                        "key": undefined,
+                        "nodeType": "host",
+                        "props": Object {
+                          "children": "Description",
+                        },
+                        "ref": null,
+                        "rendered": "Description",
+                        "type": "th",
+                      },
+                      Object {
+                        "instance": null,
+                        "key": undefined,
+                        "nodeType": "host",
+                        "props": Object {
+                          "children": "Price",
+                        },
+                        "ref": null,
+                        "rendered": "Price",
+                        "type": "th",
+                      },
+                      Object {
+                        "instance": null,
+                        "key": undefined,
+                        "nodeType": "host",
+                        "props": Object {
+                          "children": "Quantity",
+                        },
+                        "ref": null,
+                        "rendered": "Quantity",
+                        "type": "th",
+                      },
+                      Object {
+                        "instance": null,
+                        "key": undefined,
+                        "nodeType": "host",
+                        "props": Object {},
+                        "ref": null,
+                        "rendered": null,
+                        "type": "th",
+                      },
+                    ],
+                    "type": "tr",
+                  },
+                  "type": "thead",
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": Array [
+                      <tr>
+                        <td>
+                          Classic Ad
+                        </td>
+                        <td>
+                          Offers the most basic level of advertisement
+                        </td>
+                        <td>
+                          $
+                          269.99
+                        </td>
+                        <td>
+                          0
+                        </td>
+                        <td>
+                          <ForwardRef(Bootstrap(Button))
+                            onClick={[Function]}
+                            type="button"
+                            variant="outline-primary"
+                          >
+                            Add
+                          </ForwardRef(Bootstrap(Button))>
+                        </td>
+                      </tr>,
+                      <tr>
+                        <td>
+                          Stand out Ad
+                        </td>
+                        <td>
+                          Allows advertisers to use a company logo and use a longer presentation text
+                        </td>
+                        <td>
+                          $
+                          322.99
+                        </td>
+                        <td>
+                          0
+                        </td>
+                        <td>
+                          <ForwardRef(Bootstrap(Button))
+                            onClick={[Function]}
+                            type="button"
+                            variant="outline-primary"
+                          >
+                            Add
+                          </ForwardRef(Bootstrap(Button))>
+                        </td>
+                      </tr>,
+                      <tr>
+                        <td>
+                          Premium Ad
+                        </td>
+                        <td>
+                          Same benefits as Standout Ad, but also puts the advertisement at the top of the results, allowing higher visibility
+                        </td>
+                        <td>
+                          $
+                          394.99
+                        </td>
+                        <td>
+                          0
+                        </td>
+                        <td>
+                          <ForwardRef(Bootstrap(Button))
+                            onClick={[Function]}
+                            type="button"
+                            variant="outline-primary"
+                          >
+                            Add
+                          </ForwardRef(Bootstrap(Button))>
+                        </td>
+                      </tr>,
+                    ],
+                  },
+                  "ref": null,
+                  "rendered": Array [
+                    Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "host",
+                      "props": Object {
+                        "children": Array [
+                          <td>
+                            Classic Ad
+                          </td>,
+                          <td>
+                            Offers the most basic level of advertisement
+                          </td>,
+                          <td>
+                            $
+                            269.99
+                          </td>,
+                          <td>
+                            0
+                          </td>,
+                          <td>
+                            <ForwardRef(Bootstrap(Button))
+                              onClick={[Function]}
+                              type="button"
+                              variant="outline-primary"
+                            >
+                              Add
+                            </ForwardRef(Bootstrap(Button))>
+                          </td>,
+                        ],
+                      },
+                      "ref": null,
+                      "rendered": Array [
+                        Object {
+                          "instance": null,
+                          "key": undefined,
+                          "nodeType": "host",
+                          "props": Object {
+                            "children": "Classic Ad",
+                          },
+                          "ref": null,
+                          "rendered": "Classic Ad",
+                          "type": "td",
+                        },
+                        Object {
+                          "instance": null,
+                          "key": undefined,
+                          "nodeType": "host",
+                          "props": Object {
+                            "children": "Offers the most basic level of advertisement",
+                          },
+                          "ref": null,
+                          "rendered": "Offers the most basic level of advertisement",
+                          "type": "td",
+                        },
+                        Object {
+                          "instance": null,
+                          "key": undefined,
+                          "nodeType": "host",
+                          "props": Object {
+                            "children": Array [
+                              "$",
+                              269.99,
+                            ],
+                          },
+                          "ref": null,
+                          "rendered": Array [
+                            "$",
+                            269.99,
+                          ],
+                          "type": "td",
+                        },
+                        Object {
+                          "instance": null,
+                          "key": undefined,
+                          "nodeType": "host",
+                          "props": Object {
+                            "children": 0,
+                          },
+                          "ref": null,
+                          "rendered": 0,
+                          "type": "td",
+                        },
+                        Object {
+                          "instance": null,
+                          "key": undefined,
+                          "nodeType": "host",
+                          "props": Object {
+                            "children": <ForwardRef(Bootstrap(Button))
+                              onClick={[Function]}
+                              type="button"
+                              variant="outline-primary"
+                            >
+                              Add
+                            </ForwardRef(Bootstrap(Button))>,
+                          },
+                          "ref": null,
+                          "rendered": Object {
+                            "instance": null,
+                            "key": undefined,
+                            "nodeType": "function",
+                            "props": Object {
+                              "children": "Add",
+                              "onClick": [Function],
+                              "type": "button",
+                              "variant": "outline-primary",
+                            },
+                            "ref": null,
+                            "rendered": "Add",
+                            "type": Object {
+                              "$$typeof": Symbol(react.forward_ref),
+                              "defaultProps": undefined,
+                              "propTypes": undefined,
+                              "render": [Function],
+                            },
+                          },
+                          "type": "td",
+                        },
+                      ],
+                      "type": "tr",
+                    },
+                    Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "host",
+                      "props": Object {
+                        "children": Array [
+                          <td>
+                            Stand out Ad
+                          </td>,
+                          <td>
+                            Allows advertisers to use a company logo and use a longer presentation text
+                          </td>,
+                          <td>
+                            $
+                            322.99
+                          </td>,
+                          <td>
+                            0
+                          </td>,
+                          <td>
+                            <ForwardRef(Bootstrap(Button))
+                              onClick={[Function]}
+                              type="button"
+                              variant="outline-primary"
+                            >
+                              Add
+                            </ForwardRef(Bootstrap(Button))>
+                          </td>,
+                        ],
+                      },
+                      "ref": null,
+                      "rendered": Array [
+                        Object {
+                          "instance": null,
+                          "key": undefined,
+                          "nodeType": "host",
+                          "props": Object {
+                            "children": "Stand out Ad",
+                          },
+                          "ref": null,
+                          "rendered": "Stand out Ad",
+                          "type": "td",
+                        },
+                        Object {
+                          "instance": null,
+                          "key": undefined,
+                          "nodeType": "host",
+                          "props": Object {
+                            "children": "Allows advertisers to use a company logo and use a longer presentation text",
+                          },
+                          "ref": null,
+                          "rendered": "Allows advertisers to use a company logo and use a longer presentation text",
+                          "type": "td",
+                        },
+                        Object {
+                          "instance": null,
+                          "key": undefined,
+                          "nodeType": "host",
+                          "props": Object {
+                            "children": Array [
+                              "$",
+                              322.99,
+                            ],
+                          },
+                          "ref": null,
+                          "rendered": Array [
+                            "$",
+                            322.99,
+                          ],
+                          "type": "td",
+                        },
+                        Object {
+                          "instance": null,
+                          "key": undefined,
+                          "nodeType": "host",
+                          "props": Object {
+                            "children": 0,
+                          },
+                          "ref": null,
+                          "rendered": 0,
+                          "type": "td",
+                        },
+                        Object {
+                          "instance": null,
+                          "key": undefined,
+                          "nodeType": "host",
+                          "props": Object {
+                            "children": <ForwardRef(Bootstrap(Button))
+                              onClick={[Function]}
+                              type="button"
+                              variant="outline-primary"
+                            >
+                              Add
+                            </ForwardRef(Bootstrap(Button))>,
+                          },
+                          "ref": null,
+                          "rendered": Object {
+                            "instance": null,
+                            "key": undefined,
+                            "nodeType": "function",
+                            "props": Object {
+                              "children": "Add",
+                              "onClick": [Function],
+                              "type": "button",
+                              "variant": "outline-primary",
+                            },
+                            "ref": null,
+                            "rendered": "Add",
+                            "type": Object {
+                              "$$typeof": Symbol(react.forward_ref),
+                              "defaultProps": undefined,
+                              "propTypes": undefined,
+                              "render": [Function],
+                            },
+                          },
+                          "type": "td",
+                        },
+                      ],
+                      "type": "tr",
+                    },
+                    Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "host",
+                      "props": Object {
+                        "children": Array [
+                          <td>
+                            Premium Ad
+                          </td>,
+                          <td>
+                            Same benefits as Standout Ad, but also puts the advertisement at the top of the results, allowing higher visibility
+                          </td>,
+                          <td>
+                            $
+                            394.99
+                          </td>,
+                          <td>
+                            0
+                          </td>,
+                          <td>
+                            <ForwardRef(Bootstrap(Button))
+                              onClick={[Function]}
+                              type="button"
+                              variant="outline-primary"
+                            >
+                              Add
+                            </ForwardRef(Bootstrap(Button))>
+                          </td>,
+                        ],
+                      },
+                      "ref": null,
+                      "rendered": Array [
+                        Object {
+                          "instance": null,
+                          "key": undefined,
+                          "nodeType": "host",
+                          "props": Object {
+                            "children": "Premium Ad",
+                          },
+                          "ref": null,
+                          "rendered": "Premium Ad",
+                          "type": "td",
+                        },
+                        Object {
+                          "instance": null,
+                          "key": undefined,
+                          "nodeType": "host",
+                          "props": Object {
+                            "children": "Same benefits as Standout Ad, but also puts the advertisement at the top of the results, allowing higher visibility",
+                          },
+                          "ref": null,
+                          "rendered": "Same benefits as Standout Ad, but also puts the advertisement at the top of the results, allowing higher visibility",
+                          "type": "td",
+                        },
+                        Object {
+                          "instance": null,
+                          "key": undefined,
+                          "nodeType": "host",
+                          "props": Object {
+                            "children": Array [
+                              "$",
+                              394.99,
+                            ],
+                          },
+                          "ref": null,
+                          "rendered": Array [
+                            "$",
+                            394.99,
+                          ],
+                          "type": "td",
+                        },
+                        Object {
+                          "instance": null,
+                          "key": undefined,
+                          "nodeType": "host",
+                          "props": Object {
+                            "children": 0,
+                          },
+                          "ref": null,
+                          "rendered": 0,
+                          "type": "td",
+                        },
+                        Object {
+                          "instance": null,
+                          "key": undefined,
+                          "nodeType": "host",
+                          "props": Object {
+                            "children": <ForwardRef(Bootstrap(Button))
+                              onClick={[Function]}
+                              type="button"
+                              variant="outline-primary"
+                            >
+                              Add
+                            </ForwardRef(Bootstrap(Button))>,
+                          },
+                          "ref": null,
+                          "rendered": Object {
+                            "instance": null,
+                            "key": undefined,
+                            "nodeType": "function",
+                            "props": Object {
+                              "children": "Add",
+                              "onClick": [Function],
+                              "type": "button",
+                              "variant": "outline-primary",
+                            },
+                            "ref": null,
+                            "rendered": "Add",
+                            "type": Object {
+                              "$$typeof": Symbol(react.forward_ref),
+                              "defaultProps": undefined,
+                              "propTypes": undefined,
+                              "render": [Function],
+                            },
+                          },
+                          "type": "td",
+                        },
+                      ],
+                      "type": "tr",
+                    },
+                  ],
+                  "type": "tbody",
+                },
+              ],
+              "type": Object {
+                "$$typeof": Symbol(react.forward_ref),
+                "defaultProps": undefined,
+                "propTypes": undefined,
+                "render": [Function],
+              },
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": Array [
+                  <label
+                    className="totalLabel"
+                  >
+                    Total: 
+                  </label>,
+                  <label>
+                    <b>
+                      $
+                      0.00
+                    </b>
+                  </label>,
+                ],
+                "className": "total",
+              },
+              "ref": null,
+              "rendered": Array [
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": "Total: ",
+                    "className": "totalLabel",
+                  },
+                  "ref": null,
+                  "rendered": "Total: ",
+                  "type": "label",
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": <b>
+                      $
+                      0.00
+                    </b>,
+                  },
+                  "ref": null,
+                  "rendered": Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "host",
+                    "props": Object {
+                      "children": Array [
+                        "$",
+                        "0.00",
+                      ],
+                    },
+                    "ref": null,
+                    "rendered": Array [
+                      "$",
+                      "0.00",
+                    ],
+                    "type": "b",
+                  },
+                  "type": "label",
+                },
+              ],
+              "type": "div",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "function",
+              "props": Object {
+                "children": "Calculate total",
+                "onClick": [Function],
+                "type": "button",
+                "value": "Calculate total",
+              },
+              "ref": null,
+              "rendered": "Calculate total",
+              "type": Object {
+                "$$typeof": Symbol(react.forward_ref),
+                "defaultProps": undefined,
+                "propTypes": undefined,
+                "render": [Function],
+              },
+            },
+          ],
+          "type": "form",
+        },
+        "type": "div",
+      },
+    ],
+    "type": Object {
+      "$$typeof": Symbol(react.forward_ref),
+      "defaultProps": undefined,
+      "propTypes": undefined,
+      "render": [Function],
+    },
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "function",
+      "props": Object {
+        "children": Array [
+          <div>
+            <h1>
+              Seek Checkout
+            </h1>
+          </div>,
+          <div
             className="App-body"
           >
             <form>
@@ -239,6 +1465,7 @@ ShallowWrapper {
               <ForwardRef(Bootstrap(Table))
                 bordered={true}
                 hover={true}
+                responsive={true}
                 striped={true}
               >
                 <thead>
@@ -356,9 +1583,9 @@ ShallowWrapper {
                 Calculate total
               </ForwardRef(Bootstrap(Button))>
             </form>
-          </body>,
+          </div>,
         ],
-        "className": "App-header",
+        "className": "App",
       },
       "ref": null,
       "rendered": Array [
@@ -367,11 +1594,23 @@ ShallowWrapper {
           "key": undefined,
           "nodeType": "host",
           "props": Object {
-            "children": "Seek Checkout",
+            "children": <h1>
+              Seek Checkout
+            </h1>,
           },
           "ref": null,
-          "rendered": "Seek Checkout",
-          "type": "h1",
+          "rendered": Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": "Seek Checkout",
+            },
+            "ref": null,
+            "rendered": "Seek Checkout",
+            "type": "h1",
+          },
+          "type": "div",
         },
         Object {
           "instance": null,
@@ -417,6 +1656,7 @@ ShallowWrapper {
               <ForwardRef(Bootstrap(Table))
                 bordered={true}
                 hover={true}
+                responsive={true}
                 striped={true}
               >
                 <thead>
@@ -581,6 +1821,7 @@ ShallowWrapper {
                 <ForwardRef(Bootstrap(Table))
                   bordered={true}
                   hover={true}
+                  responsive={true}
                   striped={true}
                 >
                   <thead>
@@ -909,6 +2150,7 @@ ShallowWrapper {
                     </tbody>,
                   ],
                   "hover": true,
+                  "responsive": true,
                   "striped": true,
                 },
                 "ref": null,
@@ -1558,1569 +2800,9 @@ ShallowWrapper {
             ],
             "type": "form",
           },
-          "type": "body",
+          "type": "div",
         },
       ],
-      "type": "header",
-    },
-    "type": Object {
-      "$$typeof": Symbol(react.forward_ref),
-      "defaultProps": undefined,
-      "propTypes": undefined,
-      "render": [Function],
-    },
-  },
-  Symbol(enzyme.__nodes__): Array [
-    Object {
-      "instance": null,
-      "key": undefined,
-      "nodeType": "function",
-      "props": Object {
-        "children": <header
-          className="App-header"
-        >
-          <h1>
-            Seek Checkout
-          </h1>
-          <body
-            className="App-body"
-          >
-            <form>
-              <label>
-                Company: 
-              </label>
-              <select
-                className="select-list"
-                data-id="company"
-                onChange={[Function]}
-                value="myer"
-              >
-                <option
-                  value="myer"
-                >
-                  Myer
-                </option>
-                <option
-                  value="secondBite"
-                >
-                  Second Bite
-                </option>
-                <option
-                  value="axilCoffeeRoasters"
-                >
-                  Axil Coffee Roasters
-                </option>
-                <option
-                  value="target"
-                >
-                  Target
-                </option>
-              </select>
-              <span
-                className="sub-text"
-              >
-                (This is just to replicate the logged in company and to apply the pricing rules)
-              </span>
-              <ForwardRef(Bootstrap(Table))
-                bordered={true}
-                hover={true}
-                striped={true}
-              >
-                <thead>
-                  <tr>
-                    <th>
-                      Name 
-                    </th>
-                    <th>
-                      Description
-                    </th>
-                    <th>
-                      Price
-                    </th>
-                    <th>
-                      Quantity
-                    </th>
-                    <th />
-                  </tr>
-                </thead>
-                <tbody>
-                  <tr>
-                    <td>
-                      Classic Ad
-                    </td>
-                    <td>
-                      Offers the most basic level of advertisement
-                    </td>
-                    <td>
-                      $
-                      269.99
-                    </td>
-                    <td>
-                      0
-                    </td>
-                    <td>
-                      <ForwardRef(Bootstrap(Button))
-                        onClick={[Function]}
-                        type="button"
-                        variant="outline-primary"
-                      >
-                        Add
-                      </ForwardRef(Bootstrap(Button))>
-                    </td>
-                  </tr>
-                  <tr>
-                    <td>
-                      Stand out Ad
-                    </td>
-                    <td>
-                      Allows advertisers to use a company logo and use a longer presentation text
-                    </td>
-                    <td>
-                      $
-                      322.99
-                    </td>
-                    <td>
-                      0
-                    </td>
-                    <td>
-                      <ForwardRef(Bootstrap(Button))
-                        onClick={[Function]}
-                        type="button"
-                        variant="outline-primary"
-                      >
-                        Add
-                      </ForwardRef(Bootstrap(Button))>
-                    </td>
-                  </tr>
-                  <tr>
-                    <td>
-                      Premium Ad
-                    </td>
-                    <td>
-                      Same benefits as Standout Ad, but also puts the advertisement at the top of the results, allowing higher visibility
-                    </td>
-                    <td>
-                      $
-                      394.99
-                    </td>
-                    <td>
-                      0
-                    </td>
-                    <td>
-                      <ForwardRef(Bootstrap(Button))
-                        onClick={[Function]}
-                        type="button"
-                        variant="outline-primary"
-                      >
-                        Add
-                      </ForwardRef(Bootstrap(Button))>
-                    </td>
-                  </tr>
-                </tbody>
-              </ForwardRef(Bootstrap(Table))>
-              <div
-                className="total"
-              >
-                <label
-                  className="totalLabel"
-                >
-                  Total: 
-                </label>
-                <label>
-                  <b>
-                    $
-                    0.00
-                  </b>
-                </label>
-              </div>
-              <ForwardRef(Bootstrap(Button))
-                onClick={[Function]}
-                type="button"
-                value="Calculate total"
-              >
-                Calculate total
-              </ForwardRef(Bootstrap(Button))>
-            </form>
-          </body>
-        </header>,
-        "className": "App",
-      },
-      "ref": null,
-      "rendered": Object {
-        "instance": null,
-        "key": undefined,
-        "nodeType": "host",
-        "props": Object {
-          "children": Array [
-            <h1>
-              Seek Checkout
-            </h1>,
-            <body
-              className="App-body"
-            >
-              <form>
-                <label>
-                  Company: 
-                </label>
-                <select
-                  className="select-list"
-                  data-id="company"
-                  onChange={[Function]}
-                  value="myer"
-                >
-                  <option
-                    value="myer"
-                  >
-                    Myer
-                  </option>
-                  <option
-                    value="secondBite"
-                  >
-                    Second Bite
-                  </option>
-                  <option
-                    value="axilCoffeeRoasters"
-                  >
-                    Axil Coffee Roasters
-                  </option>
-                  <option
-                    value="target"
-                  >
-                    Target
-                  </option>
-                </select>
-                <span
-                  className="sub-text"
-                >
-                  (This is just to replicate the logged in company and to apply the pricing rules)
-                </span>
-                <ForwardRef(Bootstrap(Table))
-                  bordered={true}
-                  hover={true}
-                  striped={true}
-                >
-                  <thead>
-                    <tr>
-                      <th>
-                        Name 
-                      </th>
-                      <th>
-                        Description
-                      </th>
-                      <th>
-                        Price
-                      </th>
-                      <th>
-                        Quantity
-                      </th>
-                      <th />
-                    </tr>
-                  </thead>
-                  <tbody>
-                    <tr>
-                      <td>
-                        Classic Ad
-                      </td>
-                      <td>
-                        Offers the most basic level of advertisement
-                      </td>
-                      <td>
-                        $
-                        269.99
-                      </td>
-                      <td>
-                        0
-                      </td>
-                      <td>
-                        <ForwardRef(Bootstrap(Button))
-                          onClick={[Function]}
-                          type="button"
-                          variant="outline-primary"
-                        >
-                          Add
-                        </ForwardRef(Bootstrap(Button))>
-                      </td>
-                    </tr>
-                    <tr>
-                      <td>
-                        Stand out Ad
-                      </td>
-                      <td>
-                        Allows advertisers to use a company logo and use a longer presentation text
-                      </td>
-                      <td>
-                        $
-                        322.99
-                      </td>
-                      <td>
-                        0
-                      </td>
-                      <td>
-                        <ForwardRef(Bootstrap(Button))
-                          onClick={[Function]}
-                          type="button"
-                          variant="outline-primary"
-                        >
-                          Add
-                        </ForwardRef(Bootstrap(Button))>
-                      </td>
-                    </tr>
-                    <tr>
-                      <td>
-                        Premium Ad
-                      </td>
-                      <td>
-                        Same benefits as Standout Ad, but also puts the advertisement at the top of the results, allowing higher visibility
-                      </td>
-                      <td>
-                        $
-                        394.99
-                      </td>
-                      <td>
-                        0
-                      </td>
-                      <td>
-                        <ForwardRef(Bootstrap(Button))
-                          onClick={[Function]}
-                          type="button"
-                          variant="outline-primary"
-                        >
-                          Add
-                        </ForwardRef(Bootstrap(Button))>
-                      </td>
-                    </tr>
-                  </tbody>
-                </ForwardRef(Bootstrap(Table))>
-                <div
-                  className="total"
-                >
-                  <label
-                    className="totalLabel"
-                  >
-                    Total: 
-                  </label>
-                  <label>
-                    <b>
-                      $
-                      0.00
-                    </b>
-                  </label>
-                </div>
-                <ForwardRef(Bootstrap(Button))
-                  onClick={[Function]}
-                  type="button"
-                  value="Calculate total"
-                >
-                  Calculate total
-                </ForwardRef(Bootstrap(Button))>
-              </form>
-            </body>,
-          ],
-          "className": "App-header",
-        },
-        "ref": null,
-        "rendered": Array [
-          Object {
-            "instance": null,
-            "key": undefined,
-            "nodeType": "host",
-            "props": Object {
-              "children": "Seek Checkout",
-            },
-            "ref": null,
-            "rendered": "Seek Checkout",
-            "type": "h1",
-          },
-          Object {
-            "instance": null,
-            "key": undefined,
-            "nodeType": "host",
-            "props": Object {
-              "children": <form>
-                <label>
-                  Company: 
-                </label>
-                <select
-                  className="select-list"
-                  data-id="company"
-                  onChange={[Function]}
-                  value="myer"
-                >
-                  <option
-                    value="myer"
-                  >
-                    Myer
-                  </option>
-                  <option
-                    value="secondBite"
-                  >
-                    Second Bite
-                  </option>
-                  <option
-                    value="axilCoffeeRoasters"
-                  >
-                    Axil Coffee Roasters
-                  </option>
-                  <option
-                    value="target"
-                  >
-                    Target
-                  </option>
-                </select>
-                <span
-                  className="sub-text"
-                >
-                  (This is just to replicate the logged in company and to apply the pricing rules)
-                </span>
-                <ForwardRef(Bootstrap(Table))
-                  bordered={true}
-                  hover={true}
-                  striped={true}
-                >
-                  <thead>
-                    <tr>
-                      <th>
-                        Name 
-                      </th>
-                      <th>
-                        Description
-                      </th>
-                      <th>
-                        Price
-                      </th>
-                      <th>
-                        Quantity
-                      </th>
-                      <th />
-                    </tr>
-                  </thead>
-                  <tbody>
-                    <tr>
-                      <td>
-                        Classic Ad
-                      </td>
-                      <td>
-                        Offers the most basic level of advertisement
-                      </td>
-                      <td>
-                        $
-                        269.99
-                      </td>
-                      <td>
-                        0
-                      </td>
-                      <td>
-                        <ForwardRef(Bootstrap(Button))
-                          onClick={[Function]}
-                          type="button"
-                          variant="outline-primary"
-                        >
-                          Add
-                        </ForwardRef(Bootstrap(Button))>
-                      </td>
-                    </tr>
-                    <tr>
-                      <td>
-                        Stand out Ad
-                      </td>
-                      <td>
-                        Allows advertisers to use a company logo and use a longer presentation text
-                      </td>
-                      <td>
-                        $
-                        322.99
-                      </td>
-                      <td>
-                        0
-                      </td>
-                      <td>
-                        <ForwardRef(Bootstrap(Button))
-                          onClick={[Function]}
-                          type="button"
-                          variant="outline-primary"
-                        >
-                          Add
-                        </ForwardRef(Bootstrap(Button))>
-                      </td>
-                    </tr>
-                    <tr>
-                      <td>
-                        Premium Ad
-                      </td>
-                      <td>
-                        Same benefits as Standout Ad, but also puts the advertisement at the top of the results, allowing higher visibility
-                      </td>
-                      <td>
-                        $
-                        394.99
-                      </td>
-                      <td>
-                        0
-                      </td>
-                      <td>
-                        <ForwardRef(Bootstrap(Button))
-                          onClick={[Function]}
-                          type="button"
-                          variant="outline-primary"
-                        >
-                          Add
-                        </ForwardRef(Bootstrap(Button))>
-                      </td>
-                    </tr>
-                  </tbody>
-                </ForwardRef(Bootstrap(Table))>
-                <div
-                  className="total"
-                >
-                  <label
-                    className="totalLabel"
-                  >
-                    Total: 
-                  </label>
-                  <label>
-                    <b>
-                      $
-                      0.00
-                    </b>
-                  </label>
-                </div>
-                <ForwardRef(Bootstrap(Button))
-                  onClick={[Function]}
-                  type="button"
-                  value="Calculate total"
-                >
-                  Calculate total
-                </ForwardRef(Bootstrap(Button))>
-              </form>,
-              "className": "App-body",
-            },
-            "ref": null,
-            "rendered": Object {
-              "instance": null,
-              "key": undefined,
-              "nodeType": "host",
-              "props": Object {
-                "children": Array [
-                  <label>
-                    Company: 
-                  </label>,
-                  <select
-                    className="select-list"
-                    data-id="company"
-                    onChange={[Function]}
-                    value="myer"
-                  >
-                    <option
-                      value="myer"
-                    >
-                      Myer
-                    </option>
-                    <option
-                      value="secondBite"
-                    >
-                      Second Bite
-                    </option>
-                    <option
-                      value="axilCoffeeRoasters"
-                    >
-                      Axil Coffee Roasters
-                    </option>
-                    <option
-                      value="target"
-                    >
-                      Target
-                    </option>
-                  </select>,
-                  <span
-                    className="sub-text"
-                  >
-                    (This is just to replicate the logged in company and to apply the pricing rules)
-                  </span>,
-                  <ForwardRef(Bootstrap(Table))
-                    bordered={true}
-                    hover={true}
-                    striped={true}
-                  >
-                    <thead>
-                      <tr>
-                        <th>
-                          Name 
-                        </th>
-                        <th>
-                          Description
-                        </th>
-                        <th>
-                          Price
-                        </th>
-                        <th>
-                          Quantity
-                        </th>
-                        <th />
-                      </tr>
-                    </thead>
-                    <tbody>
-                      <tr>
-                        <td>
-                          Classic Ad
-                        </td>
-                        <td>
-                          Offers the most basic level of advertisement
-                        </td>
-                        <td>
-                          $
-                          269.99
-                        </td>
-                        <td>
-                          0
-                        </td>
-                        <td>
-                          <ForwardRef(Bootstrap(Button))
-                            onClick={[Function]}
-                            type="button"
-                            variant="outline-primary"
-                          >
-                            Add
-                          </ForwardRef(Bootstrap(Button))>
-                        </td>
-                      </tr>
-                      <tr>
-                        <td>
-                          Stand out Ad
-                        </td>
-                        <td>
-                          Allows advertisers to use a company logo and use a longer presentation text
-                        </td>
-                        <td>
-                          $
-                          322.99
-                        </td>
-                        <td>
-                          0
-                        </td>
-                        <td>
-                          <ForwardRef(Bootstrap(Button))
-                            onClick={[Function]}
-                            type="button"
-                            variant="outline-primary"
-                          >
-                            Add
-                          </ForwardRef(Bootstrap(Button))>
-                        </td>
-                      </tr>
-                      <tr>
-                        <td>
-                          Premium Ad
-                        </td>
-                        <td>
-                          Same benefits as Standout Ad, but also puts the advertisement at the top of the results, allowing higher visibility
-                        </td>
-                        <td>
-                          $
-                          394.99
-                        </td>
-                        <td>
-                          0
-                        </td>
-                        <td>
-                          <ForwardRef(Bootstrap(Button))
-                            onClick={[Function]}
-                            type="button"
-                            variant="outline-primary"
-                          >
-                            Add
-                          </ForwardRef(Bootstrap(Button))>
-                        </td>
-                      </tr>
-                    </tbody>
-                  </ForwardRef(Bootstrap(Table))>,
-                  <div
-                    className="total"
-                  >
-                    <label
-                      className="totalLabel"
-                    >
-                      Total: 
-                    </label>
-                    <label>
-                      <b>
-                        $
-                        0.00
-                      </b>
-                    </label>
-                  </div>,
-                  <ForwardRef(Bootstrap(Button))
-                    onClick={[Function]}
-                    type="button"
-                    value="Calculate total"
-                  >
-                    Calculate total
-                  </ForwardRef(Bootstrap(Button))>,
-                ],
-              },
-              "ref": null,
-              "rendered": Array [
-                Object {
-                  "instance": null,
-                  "key": undefined,
-                  "nodeType": "host",
-                  "props": Object {
-                    "children": "Company: ",
-                  },
-                  "ref": null,
-                  "rendered": "Company: ",
-                  "type": "label",
-                },
-                Object {
-                  "instance": null,
-                  "key": undefined,
-                  "nodeType": "host",
-                  "props": Object {
-                    "children": Array [
-                      <option
-                        value="myer"
-                      >
-                        Myer
-                      </option>,
-                      <option
-                        value="secondBite"
-                      >
-                        Second Bite
-                      </option>,
-                      <option
-                        value="axilCoffeeRoasters"
-                      >
-                        Axil Coffee Roasters
-                      </option>,
-                      <option
-                        value="target"
-                      >
-                        Target
-                      </option>,
-                    ],
-                    "className": "select-list",
-                    "data-id": "company",
-                    "onChange": [Function],
-                    "value": "myer",
-                  },
-                  "ref": null,
-                  "rendered": Array [
-                    Object {
-                      "instance": null,
-                      "key": undefined,
-                      "nodeType": "host",
-                      "props": Object {
-                        "children": "Myer",
-                        "value": "myer",
-                      },
-                      "ref": null,
-                      "rendered": "Myer",
-                      "type": "option",
-                    },
-                    Object {
-                      "instance": null,
-                      "key": undefined,
-                      "nodeType": "host",
-                      "props": Object {
-                        "children": "Second Bite",
-                        "value": "secondBite",
-                      },
-                      "ref": null,
-                      "rendered": "Second Bite",
-                      "type": "option",
-                    },
-                    Object {
-                      "instance": null,
-                      "key": undefined,
-                      "nodeType": "host",
-                      "props": Object {
-                        "children": "Axil Coffee Roasters",
-                        "value": "axilCoffeeRoasters",
-                      },
-                      "ref": null,
-                      "rendered": "Axil Coffee Roasters",
-                      "type": "option",
-                    },
-                    Object {
-                      "instance": null,
-                      "key": undefined,
-                      "nodeType": "host",
-                      "props": Object {
-                        "children": "Target",
-                        "value": "target",
-                      },
-                      "ref": null,
-                      "rendered": "Target",
-                      "type": "option",
-                    },
-                  ],
-                  "type": "select",
-                },
-                Object {
-                  "instance": null,
-                  "key": undefined,
-                  "nodeType": "host",
-                  "props": Object {
-                    "children": "(This is just to replicate the logged in company and to apply the pricing rules)",
-                    "className": "sub-text",
-                  },
-                  "ref": null,
-                  "rendered": "(This is just to replicate the logged in company and to apply the pricing rules)",
-                  "type": "span",
-                },
-                Object {
-                  "instance": null,
-                  "key": undefined,
-                  "nodeType": "function",
-                  "props": Object {
-                    "bordered": true,
-                    "children": Array [
-                      <thead>
-                        <tr>
-                          <th>
-                            Name 
-                          </th>
-                          <th>
-                            Description
-                          </th>
-                          <th>
-                            Price
-                          </th>
-                          <th>
-                            Quantity
-                          </th>
-                          <th />
-                        </tr>
-                      </thead>,
-                      <tbody>
-                        <tr>
-                          <td>
-                            Classic Ad
-                          </td>
-                          <td>
-                            Offers the most basic level of advertisement
-                          </td>
-                          <td>
-                            $
-                            269.99
-                          </td>
-                          <td>
-                            0
-                          </td>
-                          <td>
-                            <ForwardRef(Bootstrap(Button))
-                              onClick={[Function]}
-                              type="button"
-                              variant="outline-primary"
-                            >
-                              Add
-                            </ForwardRef(Bootstrap(Button))>
-                          </td>
-                        </tr>
-                        <tr>
-                          <td>
-                            Stand out Ad
-                          </td>
-                          <td>
-                            Allows advertisers to use a company logo and use a longer presentation text
-                          </td>
-                          <td>
-                            $
-                            322.99
-                          </td>
-                          <td>
-                            0
-                          </td>
-                          <td>
-                            <ForwardRef(Bootstrap(Button))
-                              onClick={[Function]}
-                              type="button"
-                              variant="outline-primary"
-                            >
-                              Add
-                            </ForwardRef(Bootstrap(Button))>
-                          </td>
-                        </tr>
-                        <tr>
-                          <td>
-                            Premium Ad
-                          </td>
-                          <td>
-                            Same benefits as Standout Ad, but also puts the advertisement at the top of the results, allowing higher visibility
-                          </td>
-                          <td>
-                            $
-                            394.99
-                          </td>
-                          <td>
-                            0
-                          </td>
-                          <td>
-                            <ForwardRef(Bootstrap(Button))
-                              onClick={[Function]}
-                              type="button"
-                              variant="outline-primary"
-                            >
-                              Add
-                            </ForwardRef(Bootstrap(Button))>
-                          </td>
-                        </tr>
-                      </tbody>,
-                    ],
-                    "hover": true,
-                    "striped": true,
-                  },
-                  "ref": null,
-                  "rendered": Array [
-                    Object {
-                      "instance": null,
-                      "key": undefined,
-                      "nodeType": "host",
-                      "props": Object {
-                        "children": <tr>
-                          <th>
-                            Name 
-                          </th>
-                          <th>
-                            Description
-                          </th>
-                          <th>
-                            Price
-                          </th>
-                          <th>
-                            Quantity
-                          </th>
-                          <th />
-                        </tr>,
-                      },
-                      "ref": null,
-                      "rendered": Object {
-                        "instance": null,
-                        "key": undefined,
-                        "nodeType": "host",
-                        "props": Object {
-                          "children": Array [
-                            <th>
-                              Name 
-                            </th>,
-                            <th>
-                              Description
-                            </th>,
-                            <th>
-                              Price
-                            </th>,
-                            <th>
-                              Quantity
-                            </th>,
-                            <th />,
-                          ],
-                        },
-                        "ref": null,
-                        "rendered": Array [
-                          Object {
-                            "instance": null,
-                            "key": undefined,
-                            "nodeType": "host",
-                            "props": Object {
-                              "children": "Name ",
-                            },
-                            "ref": null,
-                            "rendered": "Name ",
-                            "type": "th",
-                          },
-                          Object {
-                            "instance": null,
-                            "key": undefined,
-                            "nodeType": "host",
-                            "props": Object {
-                              "children": "Description",
-                            },
-                            "ref": null,
-                            "rendered": "Description",
-                            "type": "th",
-                          },
-                          Object {
-                            "instance": null,
-                            "key": undefined,
-                            "nodeType": "host",
-                            "props": Object {
-                              "children": "Price",
-                            },
-                            "ref": null,
-                            "rendered": "Price",
-                            "type": "th",
-                          },
-                          Object {
-                            "instance": null,
-                            "key": undefined,
-                            "nodeType": "host",
-                            "props": Object {
-                              "children": "Quantity",
-                            },
-                            "ref": null,
-                            "rendered": "Quantity",
-                            "type": "th",
-                          },
-                          Object {
-                            "instance": null,
-                            "key": undefined,
-                            "nodeType": "host",
-                            "props": Object {},
-                            "ref": null,
-                            "rendered": null,
-                            "type": "th",
-                          },
-                        ],
-                        "type": "tr",
-                      },
-                      "type": "thead",
-                    },
-                    Object {
-                      "instance": null,
-                      "key": undefined,
-                      "nodeType": "host",
-                      "props": Object {
-                        "children": Array [
-                          <tr>
-                            <td>
-                              Classic Ad
-                            </td>
-                            <td>
-                              Offers the most basic level of advertisement
-                            </td>
-                            <td>
-                              $
-                              269.99
-                            </td>
-                            <td>
-                              0
-                            </td>
-                            <td>
-                              <ForwardRef(Bootstrap(Button))
-                                onClick={[Function]}
-                                type="button"
-                                variant="outline-primary"
-                              >
-                                Add
-                              </ForwardRef(Bootstrap(Button))>
-                            </td>
-                          </tr>,
-                          <tr>
-                            <td>
-                              Stand out Ad
-                            </td>
-                            <td>
-                              Allows advertisers to use a company logo and use a longer presentation text
-                            </td>
-                            <td>
-                              $
-                              322.99
-                            </td>
-                            <td>
-                              0
-                            </td>
-                            <td>
-                              <ForwardRef(Bootstrap(Button))
-                                onClick={[Function]}
-                                type="button"
-                                variant="outline-primary"
-                              >
-                                Add
-                              </ForwardRef(Bootstrap(Button))>
-                            </td>
-                          </tr>,
-                          <tr>
-                            <td>
-                              Premium Ad
-                            </td>
-                            <td>
-                              Same benefits as Standout Ad, but also puts the advertisement at the top of the results, allowing higher visibility
-                            </td>
-                            <td>
-                              $
-                              394.99
-                            </td>
-                            <td>
-                              0
-                            </td>
-                            <td>
-                              <ForwardRef(Bootstrap(Button))
-                                onClick={[Function]}
-                                type="button"
-                                variant="outline-primary"
-                              >
-                                Add
-                              </ForwardRef(Bootstrap(Button))>
-                            </td>
-                          </tr>,
-                        ],
-                      },
-                      "ref": null,
-                      "rendered": Array [
-                        Object {
-                          "instance": null,
-                          "key": undefined,
-                          "nodeType": "host",
-                          "props": Object {
-                            "children": Array [
-                              <td>
-                                Classic Ad
-                              </td>,
-                              <td>
-                                Offers the most basic level of advertisement
-                              </td>,
-                              <td>
-                                $
-                                269.99
-                              </td>,
-                              <td>
-                                0
-                              </td>,
-                              <td>
-                                <ForwardRef(Bootstrap(Button))
-                                  onClick={[Function]}
-                                  type="button"
-                                  variant="outline-primary"
-                                >
-                                  Add
-                                </ForwardRef(Bootstrap(Button))>
-                              </td>,
-                            ],
-                          },
-                          "ref": null,
-                          "rendered": Array [
-                            Object {
-                              "instance": null,
-                              "key": undefined,
-                              "nodeType": "host",
-                              "props": Object {
-                                "children": "Classic Ad",
-                              },
-                              "ref": null,
-                              "rendered": "Classic Ad",
-                              "type": "td",
-                            },
-                            Object {
-                              "instance": null,
-                              "key": undefined,
-                              "nodeType": "host",
-                              "props": Object {
-                                "children": "Offers the most basic level of advertisement",
-                              },
-                              "ref": null,
-                              "rendered": "Offers the most basic level of advertisement",
-                              "type": "td",
-                            },
-                            Object {
-                              "instance": null,
-                              "key": undefined,
-                              "nodeType": "host",
-                              "props": Object {
-                                "children": Array [
-                                  "$",
-                                  269.99,
-                                ],
-                              },
-                              "ref": null,
-                              "rendered": Array [
-                                "$",
-                                269.99,
-                              ],
-                              "type": "td",
-                            },
-                            Object {
-                              "instance": null,
-                              "key": undefined,
-                              "nodeType": "host",
-                              "props": Object {
-                                "children": 0,
-                              },
-                              "ref": null,
-                              "rendered": 0,
-                              "type": "td",
-                            },
-                            Object {
-                              "instance": null,
-                              "key": undefined,
-                              "nodeType": "host",
-                              "props": Object {
-                                "children": <ForwardRef(Bootstrap(Button))
-                                  onClick={[Function]}
-                                  type="button"
-                                  variant="outline-primary"
-                                >
-                                  Add
-                                </ForwardRef(Bootstrap(Button))>,
-                              },
-                              "ref": null,
-                              "rendered": Object {
-                                "instance": null,
-                                "key": undefined,
-                                "nodeType": "function",
-                                "props": Object {
-                                  "children": "Add",
-                                  "onClick": [Function],
-                                  "type": "button",
-                                  "variant": "outline-primary",
-                                },
-                                "ref": null,
-                                "rendered": "Add",
-                                "type": Object {
-                                  "$$typeof": Symbol(react.forward_ref),
-                                  "defaultProps": undefined,
-                                  "propTypes": undefined,
-                                  "render": [Function],
-                                },
-                              },
-                              "type": "td",
-                            },
-                          ],
-                          "type": "tr",
-                        },
-                        Object {
-                          "instance": null,
-                          "key": undefined,
-                          "nodeType": "host",
-                          "props": Object {
-                            "children": Array [
-                              <td>
-                                Stand out Ad
-                              </td>,
-                              <td>
-                                Allows advertisers to use a company logo and use a longer presentation text
-                              </td>,
-                              <td>
-                                $
-                                322.99
-                              </td>,
-                              <td>
-                                0
-                              </td>,
-                              <td>
-                                <ForwardRef(Bootstrap(Button))
-                                  onClick={[Function]}
-                                  type="button"
-                                  variant="outline-primary"
-                                >
-                                  Add
-                                </ForwardRef(Bootstrap(Button))>
-                              </td>,
-                            ],
-                          },
-                          "ref": null,
-                          "rendered": Array [
-                            Object {
-                              "instance": null,
-                              "key": undefined,
-                              "nodeType": "host",
-                              "props": Object {
-                                "children": "Stand out Ad",
-                              },
-                              "ref": null,
-                              "rendered": "Stand out Ad",
-                              "type": "td",
-                            },
-                            Object {
-                              "instance": null,
-                              "key": undefined,
-                              "nodeType": "host",
-                              "props": Object {
-                                "children": "Allows advertisers to use a company logo and use a longer presentation text",
-                              },
-                              "ref": null,
-                              "rendered": "Allows advertisers to use a company logo and use a longer presentation text",
-                              "type": "td",
-                            },
-                            Object {
-                              "instance": null,
-                              "key": undefined,
-                              "nodeType": "host",
-                              "props": Object {
-                                "children": Array [
-                                  "$",
-                                  322.99,
-                                ],
-                              },
-                              "ref": null,
-                              "rendered": Array [
-                                "$",
-                                322.99,
-                              ],
-                              "type": "td",
-                            },
-                            Object {
-                              "instance": null,
-                              "key": undefined,
-                              "nodeType": "host",
-                              "props": Object {
-                                "children": 0,
-                              },
-                              "ref": null,
-                              "rendered": 0,
-                              "type": "td",
-                            },
-                            Object {
-                              "instance": null,
-                              "key": undefined,
-                              "nodeType": "host",
-                              "props": Object {
-                                "children": <ForwardRef(Bootstrap(Button))
-                                  onClick={[Function]}
-                                  type="button"
-                                  variant="outline-primary"
-                                >
-                                  Add
-                                </ForwardRef(Bootstrap(Button))>,
-                              },
-                              "ref": null,
-                              "rendered": Object {
-                                "instance": null,
-                                "key": undefined,
-                                "nodeType": "function",
-                                "props": Object {
-                                  "children": "Add",
-                                  "onClick": [Function],
-                                  "type": "button",
-                                  "variant": "outline-primary",
-                                },
-                                "ref": null,
-                                "rendered": "Add",
-                                "type": Object {
-                                  "$$typeof": Symbol(react.forward_ref),
-                                  "defaultProps": undefined,
-                                  "propTypes": undefined,
-                                  "render": [Function],
-                                },
-                              },
-                              "type": "td",
-                            },
-                          ],
-                          "type": "tr",
-                        },
-                        Object {
-                          "instance": null,
-                          "key": undefined,
-                          "nodeType": "host",
-                          "props": Object {
-                            "children": Array [
-                              <td>
-                                Premium Ad
-                              </td>,
-                              <td>
-                                Same benefits as Standout Ad, but also puts the advertisement at the top of the results, allowing higher visibility
-                              </td>,
-                              <td>
-                                $
-                                394.99
-                              </td>,
-                              <td>
-                                0
-                              </td>,
-                              <td>
-                                <ForwardRef(Bootstrap(Button))
-                                  onClick={[Function]}
-                                  type="button"
-                                  variant="outline-primary"
-                                >
-                                  Add
-                                </ForwardRef(Bootstrap(Button))>
-                              </td>,
-                            ],
-                          },
-                          "ref": null,
-                          "rendered": Array [
-                            Object {
-                              "instance": null,
-                              "key": undefined,
-                              "nodeType": "host",
-                              "props": Object {
-                                "children": "Premium Ad",
-                              },
-                              "ref": null,
-                              "rendered": "Premium Ad",
-                              "type": "td",
-                            },
-                            Object {
-                              "instance": null,
-                              "key": undefined,
-                              "nodeType": "host",
-                              "props": Object {
-                                "children": "Same benefits as Standout Ad, but also puts the advertisement at the top of the results, allowing higher visibility",
-                              },
-                              "ref": null,
-                              "rendered": "Same benefits as Standout Ad, but also puts the advertisement at the top of the results, allowing higher visibility",
-                              "type": "td",
-                            },
-                            Object {
-                              "instance": null,
-                              "key": undefined,
-                              "nodeType": "host",
-                              "props": Object {
-                                "children": Array [
-                                  "$",
-                                  394.99,
-                                ],
-                              },
-                              "ref": null,
-                              "rendered": Array [
-                                "$",
-                                394.99,
-                              ],
-                              "type": "td",
-                            },
-                            Object {
-                              "instance": null,
-                              "key": undefined,
-                              "nodeType": "host",
-                              "props": Object {
-                                "children": 0,
-                              },
-                              "ref": null,
-                              "rendered": 0,
-                              "type": "td",
-                            },
-                            Object {
-                              "instance": null,
-                              "key": undefined,
-                              "nodeType": "host",
-                              "props": Object {
-                                "children": <ForwardRef(Bootstrap(Button))
-                                  onClick={[Function]}
-                                  type="button"
-                                  variant="outline-primary"
-                                >
-                                  Add
-                                </ForwardRef(Bootstrap(Button))>,
-                              },
-                              "ref": null,
-                              "rendered": Object {
-                                "instance": null,
-                                "key": undefined,
-                                "nodeType": "function",
-                                "props": Object {
-                                  "children": "Add",
-                                  "onClick": [Function],
-                                  "type": "button",
-                                  "variant": "outline-primary",
-                                },
-                                "ref": null,
-                                "rendered": "Add",
-                                "type": Object {
-                                  "$$typeof": Symbol(react.forward_ref),
-                                  "defaultProps": undefined,
-                                  "propTypes": undefined,
-                                  "render": [Function],
-                                },
-                              },
-                              "type": "td",
-                            },
-                          ],
-                          "type": "tr",
-                        },
-                      ],
-                      "type": "tbody",
-                    },
-                  ],
-                  "type": Object {
-                    "$$typeof": Symbol(react.forward_ref),
-                    "defaultProps": undefined,
-                    "propTypes": undefined,
-                    "render": [Function],
-                  },
-                },
-                Object {
-                  "instance": null,
-                  "key": undefined,
-                  "nodeType": "host",
-                  "props": Object {
-                    "children": Array [
-                      <label
-                        className="totalLabel"
-                      >
-                        Total: 
-                      </label>,
-                      <label>
-                        <b>
-                          $
-                          0.00
-                        </b>
-                      </label>,
-                    ],
-                    "className": "total",
-                  },
-                  "ref": null,
-                  "rendered": Array [
-                    Object {
-                      "instance": null,
-                      "key": undefined,
-                      "nodeType": "host",
-                      "props": Object {
-                        "children": "Total: ",
-                        "className": "totalLabel",
-                      },
-                      "ref": null,
-                      "rendered": "Total: ",
-                      "type": "label",
-                    },
-                    Object {
-                      "instance": null,
-                      "key": undefined,
-                      "nodeType": "host",
-                      "props": Object {
-                        "children": <b>
-                          $
-                          0.00
-                        </b>,
-                      },
-                      "ref": null,
-                      "rendered": Object {
-                        "instance": null,
-                        "key": undefined,
-                        "nodeType": "host",
-                        "props": Object {
-                          "children": Array [
-                            "$",
-                            "0.00",
-                          ],
-                        },
-                        "ref": null,
-                        "rendered": Array [
-                          "$",
-                          "0.00",
-                        ],
-                        "type": "b",
-                      },
-                      "type": "label",
-                    },
-                  ],
-                  "type": "div",
-                },
-                Object {
-                  "instance": null,
-                  "key": undefined,
-                  "nodeType": "function",
-                  "props": Object {
-                    "children": "Calculate total",
-                    "onClick": [Function],
-                    "type": "button",
-                    "value": "Calculate total",
-                  },
-                  "ref": null,
-                  "rendered": "Calculate total",
-                  "type": Object {
-                    "$$typeof": Symbol(react.forward_ref),
-                    "defaultProps": undefined,
-                    "propTypes": undefined,
-                    "render": [Function],
-                  },
-                },
-              ],
-              "type": "form",
-            },
-            "type": "body",
-          },
-        ],
-        "type": "header",
-      },
       "type": Object {
         "$$typeof": Symbol(react.forward_ref),
         "defaultProps": undefined,

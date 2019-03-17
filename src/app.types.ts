@@ -12,4 +12,9 @@ export interface IProduct {
   price: number;
 }
 
+export type IAppState = {
+  value: string;
+  total: string;
+};
+
 export type ProductId = 'classic' | 'standout' | 'premium';

@@ -26,7 +26,7 @@ export const getPricingRules = (value: string): IPricingRule[] => {
  */
 export const applyPricingRules = (rules: IPricingRule[], items: IProduct[]) => {
   let discount = 0;
-  rules.map(rule => {
+  rules.forEach(rule => {
     const itemQuantity = items.filter(item => item.id === rule.productId).length;
     const product = getProduct(rule.productId);
     if (product) {
