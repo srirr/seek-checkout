@@ -57,6 +57,11 @@ ShallowWrapper {
               >
                 Target
               </option>
+              <option
+                value="jora"
+              >
+                Target
+              </option>
             </select>
             <span
               className="sub-text"
@@ -248,6 +253,11 @@ ShallowWrapper {
               >
                 Target
               </option>
+              <option
+                value="jora"
+              >
+                Target
+              </option>
             </select>
             <span
               className="sub-text"
@@ -410,6 +420,11 @@ ShallowWrapper {
                 </option>
                 <option
                   value="target"
+                >
+                  Target
+                </option>
+                <option
+                  value="jora"
                 >
                   Target
                 </option>
@@ -580,6 +595,11 @@ ShallowWrapper {
                   >
                     Target
                   </option>,
+                  <option
+                    value="jora"
+                  >
+                    Target
+                  </option>,
                 ],
                 "className": "select-list",
                 "data-id": "company",
@@ -631,6 +651,18 @@ ShallowWrapper {
                   "props": Object {
                     "children": "Target",
                     "value": "target",
+                  },
+                  "ref": null,
+                  "rendered": "Target",
+                  "type": "option",
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": "Target",
+                    "value": "jora",
                   },
                   "ref": null,
                   "rendered": "Target",
@@ -1456,6 +1488,11 @@ ShallowWrapper {
                 >
                   Target
                 </option>
+                <option
+                  value="jora"
+                >
+                  Target
+                </option>
               </select>
               <span
                 className="sub-text"
@@ -1647,6 +1684,11 @@ ShallowWrapper {
                 >
                   Target
                 </option>
+                <option
+                  value="jora"
+                >
+                  Target
+                </option>
               </select>
               <span
                 className="sub-text"
@@ -1809,6 +1851,11 @@ ShallowWrapper {
                   </option>
                   <option
                     value="target"
+                  >
+                    Target
+                  </option>
+                  <option
+                    value="jora"
                   >
                     Target
                   </option>
@@ -1979,6 +2026,11 @@ ShallowWrapper {
                     >
                       Target
                     </option>,
+                    <option
+                      value="jora"
+                    >
+                      Target
+                    </option>,
                   ],
                   "className": "select-list",
                   "data-id": "company",
@@ -2030,6 +2082,18 @@ ShallowWrapper {
                     "props": Object {
                       "children": "Target",
                       "value": "target",
+                    },
+                    "ref": null,
+                    "rendered": "Target",
+                    "type": "option",
+                  },
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "host",
+                    "props": Object {
+                      "children": "Target",
+                      "value": "jora",
                     },
                     "ref": null,
                     "rendered": "Target",

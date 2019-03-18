@@ -7,5 +7,10 @@
   {
     "productId": "premium",
     "price": 389.99
+  },
+  {
+    "productId": "classic",
+    "price": 249.99,
+    "qtyRequired": 3
   }
 ]

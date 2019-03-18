@@ -58,6 +58,7 @@ class App extends Component<{}, IAppState> {
               <option value="secondBite">Second Bite</option>
               <option value="axilCoffeeRoasters">Axil Coffee Roasters</option>
               <option value="target">Target</option>
+              <option value="jora">Target</option>
             </select>
             <span className="sub-text">
               (This is just to replicate the logged in company and to apply the pricing rules)
